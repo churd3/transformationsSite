@@ -1,0 +1,14 @@
+html, body, div, canvas {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas{
+    width: 80%;
+    float: left;
+}
+
+#editor{
+    width: 20%;
+    float: left;
+}

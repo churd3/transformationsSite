@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <script src = "transformations.js">
+        </script>
+
+        <link rel = "stylesheet" href= "style.css">
+    </head>
+
+    <body>
+        <div id = "parent">
+            <div id = "canvas">
+                <canvas id = "transformationCanvas"> 
+                </canvas>
+            </div>
+            <div id = "editor"> 
+                <label for = "trans x">Translate in x-direction</label>
+                <select id = "x_trans">
+                    <option value = "-10">-10</option>
+                    <option value = "-9">-9</option>
+                    <option value = "-8">-8</option>
+                    <option value = "-7">-7</option>
+                    <option value = "-6">-6</option>
+                    <option value = "-5">-5</option>
+                    <option value = "-4">-4</option>
+                    <option value = "-3">-3</option>
+                    <option value = "-2">-2</option>
+                    <option value = "-1">-1</option>
+                    <option value = "0" selected>0</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                </select>
+                <label for = "trans y">Translate in y-direction</label>
+                <select id = "y_trans">
+                    <option value = "-10">-10</option>
+                    <option value = "-9">-9</option>
+                    <option value = "-8">-8</option>
+                    <option value = "-7">-7</option>
+                    <option value = "-6">-6</option>
+                    <option value = "-5">-5</option>
+                    <option value = "-4">-4</option>
+                    <option value = "-3">-3</option>
+                    <option value = "-2">-2</option>
+                    <option value = "-1">-1</option>
+                    <option value = "0" selected>0</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                </select>
+                <br><br>
+                <button id = "translate_button">Translate</button>
+                <br><br><br>
+
+                <label for = "reflections">Reflect over the </label>
+                <select id = "reflections">
+                    <option value = "" selected></option>
+                    <option value = "x-axis">x-axis</option>
+                    <option value = "y-axis">y-axis</option>
+                    <option value = "line y = x">line y = x</option>
+                </select>
+                <br><br>
+                <button id = "reflect_button">Reflect</button>
+                <br><br><br>
+
+                <label for = "rotations">Rotate this many degrees around the origin</label>
+                <select id = "rotations">
+                    <option value = "" selected></option>
+                    <option value = "90 degrees clockwise">90 degrees clockwise</option>
+                    <option value = "90 degrees counter-clockwise">90 degrees counter-clockwise</option>
+                    <option value = "180 degrees">180 degrees</option>
+                </select>
+                <br><br>
+                <button id = "rotate_button">Rotate</button>
+                <br><br><br>
+
+                <label for = "reset x">Reset square to be centered at this point (x, y)</label>
+                <select id = "x_reset">
+                    <option value = "-10">-10</option>
+                    <option value = "-9">-9</option>
+                    <option value = "-8">-8</option>
+                    <option value = "-7">-7</option>
+                    <option value = "-6">-6</option>
+                    <option value = "-5">-5</option>
+                    <option value = "-4">-4</option>
+                    <option value = "-3">-3</option>
+                    <option value = "-2">-2</option>
+                    <option value = "-1">-1</option>
+                    <option value = "0" selected>0</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                </select>
+                <label for = "reset y"></label>
+                <select id = "y_reset">
+                    <option value = "-10">-10</option>
+                    <option value = "-9">-9</option>
+                    <option value = "-8">-8</option>
+                    <option value = "-7">-7</option>
+                    <option value = "-6">-6</option>
+                    <option value = "-5">-5</option>
+                    <option value = "-4">-4</option>
+                    <option value = "-3">-3</option>
+                    <option value = "-2">-2</option>
+                    <option value = "-1">-1</option>
+                    <option value = "0" selected>0</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                </select>
+                <br><br>
+                <button id = "reset_button">Reset</button>
+                <br><br><br>
+            </div>
+        </div>
+    </body>
+
+</html>
